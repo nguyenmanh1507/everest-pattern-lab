@@ -2,13 +2,14 @@
   display: inline-block;
   padding: $space-sm $space-md;
 
-  font-weight: $font-weight-base;
+  font-size: $font-size-small;
+  font-weight: $font-weight-light;
   text-align: center;
   white-space: nowrap;
 
   vertical-align: middle;
   user-select: none;
-  border-radius: $border-radius;
+  border-radius: 0;
   transition: $anim-speed-quick background-color $anim-ease;
 
   @include border;
@@ -31,5 +32,13 @@
         background-color: darken($bg, 5%);
       }
     }
+  }
+
+  &--bold {
+    font-weight: $font-weight-medium;
+  }
+
+  &--rounded {
+    border-radius: $border-radius-large;
   }
 }
