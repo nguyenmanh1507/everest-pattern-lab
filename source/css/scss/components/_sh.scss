@@ -1,0 +1,39 @@
+// Section headings
+
+.sh {
+  position: relative;
+
+  padding-bottom: ($root * 6);
+
+  background: url("/images/sh-icon.png") no-repeat center bottom;
+
+  &::before,
+  &::after {
+    position: absolute;
+    bottom: $space-md;
+
+    display: block;
+    width: $space-xxl;
+    height: 1px;
+    content: "";
+
+    background-color: $color-gray-50;
+  }
+
+  &::before {
+    right: calc(50% + 16px);
+  }
+
+  &::after {
+    left: calc(50% + 16px);
+  }
+
+  &__title {
+    margin-bottom: 0;
+
+    font-family: $font-secondary;
+    font-size: $font-size-h2;
+    line-height: 1;
+    text-align: center;
+  }
+}
