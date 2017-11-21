@@ -4,6 +4,10 @@
   font-weight: $font-weight-bold;
 }
 
+.text-thin {
+  font-weight: $font-weight-light;
+}
+
 .text-large {
   font-size: $font-size-h4;
 }
@@ -26,6 +30,10 @@
 
 .text-center {
   text-align: center;
+}
+
+.text-white {
+  color: $color-white;
 }
 
 .text-primary {
