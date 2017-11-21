@@ -41,4 +41,10 @@
   &--rounded {
     border-radius: $border-radius-large;
   }
+
+  &--link {
+    padding: 0;
+
+    border: 0;
+  }
 }

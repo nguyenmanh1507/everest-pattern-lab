@@ -1,0 +1,33 @@
+.card-2 {
+  background-color: $color-white;
+
+  &__thumbnail {
+    display: block;
+  }
+
+  &__body {
+    padding: $space-sm;
+  }
+
+  &__content {
+    position: relative;
+
+    padding: $space-md $space-sm 0 $space-sm;
+
+    font-size: $font-size-small;
+
+    background-color: $color-white;
+    transform: translateY(-$space-md);
+  }
+
+  &__title {
+    display: block;
+
+    font-size: $font-size-h4;
+    font-weight: $font-weight-semi-bold;
+  }
+
+  &__sub-title {
+    color: $color-text-subtle;
+  }
+}

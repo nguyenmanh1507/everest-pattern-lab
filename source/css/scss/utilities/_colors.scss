@@ -7,3 +7,10 @@
 .bg-gray {
   background-color: $color-gray-50;
 }
+
+// add image source inline
+.bg-image {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
