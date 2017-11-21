@@ -1,19 +1,103 @@
-// stylelint-disable selector-no-qualifying-type, selector-max-specificity, selector-max-type
+// stylelint-disable selector-no-qualifying-type, selector-max-specificity, selector-max-type, plugin/no-unsupported-browser-features
 
 .form {
   &__control {
     display: block;
     width: 100%;
-    padding: $space-xs;
+    padding: $space-sm;
 
-    font-size: $font-size-base;
+    font-size: $font-size-small;
     line-height: $line-height-base;
     color: $color-text;
 
     background-color: $color-white;
-    border-radius: $border-radius;
+    border-radius: 0;
+    outline: none;
 
-    @include border(1px, $color-border);
+    @include border(2px, $color-border);
+    @include hover-focus {
+      border-color: $color-secondary;
+    }
+  }
+
+  &__dropdown {
+    position: relative;
+
+    .form__control {
+      padding-right: ($root * 18);
+    }
+  }
+
+  &__dropdown-select {
+    position: absolute;
+    top: 50%;
+    right: $space-md;
+
+    padding: 0;
+
+    font-size: $font-size-small;
+    font-weight: $font-weight-semi-bold;
+
+    user-select: none;
+    border: 0;
+    outline: none;
+    transform: translateY(-50%);
+
+    &::before {
+      position: absolute;
+      top: 50%;
+      left: -$space-md;
+
+      display: inline-block;
+      width: 1px;
+      height: $space-md;
+
+      content: "";
+
+      background-color: $color-gray-50;
+      transform: translateY(-50%);
+    }
+  }
+
+  &__dropdown-list {
+    position: absolute;
+    top: 100%;
+    right: 0;
+
+    display: none;
+    min-width: ($root * 24);
+    padding: $space-sm;
+    margin: 0;
+
+    list-style: none;
+
+    background-color: $color-white;
+    border-right: 1px solid $color-gray-50;
+    border-bottom: 1px solid $color-gray-50;
+    border-left: 1px solid $color-gray-50;
+    opacity: 0;
+
+    transition: $anim-speed-quick opacity $anim-ease;
+
+    &.show {
+      display: block;
+
+      opacity: 1;
+    }
+  }
+
+  &__dropdown-item {
+    padding: $space-sm 0;
+
+    font-size: $font-size-small;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid $color-gray-50;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 
