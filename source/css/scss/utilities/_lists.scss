@@ -1,11 +1,16 @@
 // stylelint-disable plugin/no-unsupported-browser-features, selector-max-type
 
-.list-separate {
-  display: flex;
+@mixin remove-list-default-style {
   padding: 0;
   margin: 0;
 
   list-style: none;
+}
+
+.list-separate {
+  display: flex;
+
+  @include remove-list-default-style;
 
   li {
     position: relative;
@@ -34,23 +39,29 @@
 }
 
 .list-unstyled {
-  padding: 0;
-  margin: 0;
-
-  list-style: none;
+  @include remove-list-default-style;
 }
 
 .list-inline {
-  padding: 0;
-  margin: 0;
-
-  list-style: none;
+  @include remove-list-default-style;
 
   li {
     display: inline-block;
 
     &:not(:last-child) {
       margin-right: $space-md;
+    }
+  }
+}
+
+.list-underline {
+  @include remove-list-default-style;
+
+  li {
+    padding: $space-sm 0;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid $color-gray-50;
     }
   }
 }

@@ -1,0 +1,38 @@
+.sh-3 {
+  position: relative;
+
+  &__title {
+    position: relative;
+    display: inline-block;
+    padding-bottom: $space-sm;
+    margin: 0;
+
+    font-size: $font-size-h5;
+    font-weight: $font-weight-semi-bold;
+    text-transform: uppercase;
+
+    &::after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+
+      width: 100%;
+      height: 1px;
+      content: "";
+
+      background-color: $color-secondary;
+    }
+  }
+
+  &::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+    content: "";
+
+    background-color: $color-gray-50;
+  }
+}
