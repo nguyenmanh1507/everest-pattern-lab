@@ -47,4 +47,18 @@
 
     border: 0;
   }
+
+  &--small {
+    padding: $space-xs $space-sm;
+
+    font-size: $font-size-small;
+  }
+
+  &--large {
+    padding: $space-md $space-lg;
+  }
+}
+
+.btn--rounded.btn--large {
+  border-radius: $border-radius-xlarge;
 }

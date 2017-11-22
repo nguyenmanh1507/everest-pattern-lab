@@ -1,46 +1,50 @@
 <header>
   <div class="bg-gray py-sm">
-    <div class="grid-x grid-padding-x">
-      <div class="small-12 cell d-flex flex-wrap">
-        <div class="item-fullfill">
-          <ul class="list-separate text-small">
-            <li>
-              <a href="tel:(+84) 123 456 789" class="text-muted">FreeCall: (+84) 123 456 789</a>
-            </li>
-            <li><a href="mailto:hello@company.co" class="text-muted">Email: hello@company.co</a></li>
-          </ul>
-        </div>
-        <div>
-          <ul class="list-separate text-small">
-            <li>
-              <div class="text-muted">
-                <i class="fa fa-globe"></i> Eng <i class="fa fa-caret-down"></i>
-              </div>
-            </li>
-            <li class="text-muted">USD <i class="fa fa-caret-down"></i></li>
-            <li>
-              <a href="#" class="text-muted">Your Account</a>
-            </li>
-          </ul>
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="small-12 cell d-flex flex-wrap">
+          <div class="item-fullfill">
+            <ul class="list-separate text-small">
+              <li>
+                <a href="tel:(+84) 123 456 789" class="text-muted">FreeCall: (+84) 123 456 789</a>
+              </li>
+              <li><a href="mailto:hello@company.co" class="text-muted">Email: hello@company.co</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class="list-separate text-small">
+              <li>
+                <div class="text-muted">
+                  <i class="fa fa-globe"></i> Eng <i class="fa fa-caret-down"></i>
+                </div>
+              </li>
+              <li class="text-muted">USD <i class="fa fa-caret-down"></i></li>
+              <li>
+                <a href="#" class="text-muted">Your Account</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="grid-x grid-padding-x align-items-center py-lg">
-    <div class="medium-5 cell">
-      <h1 class="m-0"><a href="#"><img src="/images/logo.png" alt=""></a></h1>
-    </div>
-    <div class="medium-7 cell d-flex">
-      <div class="item-fullfill mr-lg">
-        {{> molecules-input-dropdown}}
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x align-items-center py-lg">
+      <div class="medium-5 cell">
+        <h1 class="m-0"><a href="#"><img src="/images/logo.png" alt=""></a></h1>
       </div>
-      <a href="#" class="d-flex">
+      <div class="medium-7 cell d-flex">
+        <div class="item-fullfill mr-lg">
+          {{> molecules-input-dropdown}}
+        </div>
+        <a href="#" class="d-flex">
         <i class="fa fa-shopping-bag fa-2x"></i>
         <div class="ml-sm">
           <div class="text-muted text-small">Your Cart (2)</div>
           <div class="text-bold">$89.00</div>
         </div>
       </a>
+      </div>
     </div>
   </div>
   {{> molecules-navigation}}

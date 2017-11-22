@@ -95,19 +95,19 @@
     }
 
     @media (--large-up) {
-      &,
+      position: absolute;
+      left: 0;
+
+      display: flex;
+      width: 100%;
+
+      visibility: hidden;
+
       &.open {
         display: flex;
 
         visibility: visible;
       }
-
-      position: absolute;
-      left: 0;
-
-      width: 100%;
-
-      visibility: hidden;
     }
   }
 
