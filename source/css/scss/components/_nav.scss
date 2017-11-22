@@ -1,0 +1,159 @@
+// stylelint-disable plugin/no-unsupported-browser-features
+
+.nav {
+  background-color: $color-primary;
+
+  &__body {
+    display: none;
+
+    &.open {
+      display: block;
+    }
+
+    @media (--large-up) {
+      &,
+      &.open {
+        display: flex;
+      }
+    }
+  }
+
+  &__item {
+    &.has-dropdown {
+      position: relative;
+    }
+  }
+
+  &__link {
+    display: block;
+    padding: $space-md;
+
+    color: $color-white;
+    text-transform: uppercase;
+
+    transition: $anim-speed-quick background-color $anim-ease;
+
+    &.active {
+      background-color: $color-secondary;
+    }
+
+    @include hover-focus {
+      background-color: $color-secondary;
+    }
+  }
+
+  &__dropdown {
+    display: none;
+
+    background-color: $color-white;
+
+    @include box-shadow;
+
+    &.open {
+      display: block;
+    }
+
+    @media (--large-up) {
+      position: absolute;
+      top: 100%;
+      left: 0;
+
+      display: none;
+      min-width: ($root * 24);
+    }
+  }
+
+  &__sub-item {
+    display: block;
+    padding: $space-sm $space-md;
+
+    font-size: $font-size-small;
+    color: $color-text-subtle;
+
+    transition: $anim-speed-quick color $anim-ease;
+
+    &.active {
+      color: $color-text;
+    }
+
+    @include hover-focus {
+      color: $color-text;
+    }
+  }
+
+  &__mega {
+    display: none;
+    padding: $space-md;
+
+    background-color: $color-white;
+
+    @include box-shadow;
+
+    &.open {
+      display: block;
+    }
+
+    @media (--large-up) {
+      &,
+      &.open {
+        display: flex;
+
+        visibility: visible;
+      }
+
+      position: absolute;
+      left: 0;
+
+      width: 100%;
+
+      visibility: hidden;
+    }
+  }
+
+  &__mega-list {
+    flex: 1;
+
+    &:not(:last-child) {
+      border-right: 1px solid $color-border;
+    }
+  }
+
+  &__mega-label {
+    padding: $space-sm $space-md 0;
+
+    text-transform: uppercase;
+  }
+
+  &__addon {
+    padding: $space-md;
+
+    background-color: $color-secondary;
+
+    @media (--large-up) {
+      margin-left: auto;
+    }
+  }
+
+  &__addon-item {
+    font-size: $font-size-small;
+    font-weight: $font-weight-light;
+    color: $color-white;
+  }
+
+  &__toggle {
+    display: flex;
+    justify-content: flex-end;
+    padding: $space-sm $space-md;
+
+    @media (--large-up) {
+      display: none;
+    }
+  }
+
+  &__toggle-btn {
+    color: $color-white;
+
+    background-color: transparent;
+    border: 0;
+  }
+}
