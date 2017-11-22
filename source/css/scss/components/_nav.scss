@@ -13,6 +13,7 @@
     @media (--large-up) {
       &,
       &.open {
+        position: relative;
         display: flex;
       }
     }

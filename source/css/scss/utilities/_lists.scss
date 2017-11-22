@@ -1,0 +1,34 @@
+// stylelint-disable plugin/no-unsupported-browser-features, selector-max-type
+
+.list-separate {
+  display: flex;
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+
+  li {
+    position: relative;
+
+    &:not(:last-child) {
+      padding-right: $space-md;
+
+      &::after {
+        position: absolute;
+        top: 50%;
+        right: 0;
+
+        width: 1px;
+        height: $space-sm;
+        content: "";
+
+        background-color: $color-gray-85;
+        transform: translate3d(0, -50%, 0);
+      }
+    }
+
+    &:not(:first-child) {
+      padding-left: $space-md;
+    }
+  }
+}
