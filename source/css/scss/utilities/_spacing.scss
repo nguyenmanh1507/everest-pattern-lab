@@ -62,9 +62,9 @@ $spacers: (
     //   margin-bottom: auto;
     // }
 
-    // .ml#{$infix}-auto,
-    // .mx#{$infix}-auto {
-    //   margin-left: auto;
-    // }
+    .ml#{$infix}-auto,
+    .mx#{$infix}-auto {
+      margin-left: auto;
+    }
   }
 }

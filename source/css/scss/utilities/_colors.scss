@@ -8,6 +8,14 @@
   background-color: $color-gray-50;
 }
 
+.bg-dark {
+  background-color: $color-primary;
+}
+
+.bg-black {
+  background-color: $color-black;
+}
+
 // add image source inline
 .bg-image {
   background-repeat: no-repeat;

@@ -1,0 +1,26 @@
+.sh-2 {
+  &__title {
+    margin-bottom: $space-sm;
+
+    font-size: $font-size-h5;
+    font-weight: $font-weight-semi-bold;
+    text-transform: uppercase;
+  }
+
+  &::after {
+    display: block;
+    width: $space-xl;
+    height: 1px;
+    content: "";
+
+    background-color: $color-text;
+  }
+
+  &--invert {
+    color: $color-white;
+
+    &::after {
+      background-color: $color-gray-85;
+    }
+  }
+}
