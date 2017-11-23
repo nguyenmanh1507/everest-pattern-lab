@@ -4,7 +4,59 @@
       <div class="medium-3 cell">
         {{> pages-categories-sidenav}}
       </div>
-      <div class="medium-9 cell">whta the fuck</div>
+      <div class="medium-9 cell">
+        <div class="mb-md">
+          {{> molecules-banner}}
+        </div>
+        <div class="d-flex align-items-center">
+          <div class="text-uppercase text-bold">Sort by</div>
+          <div class="ml-md">
+            <select name="sorting" class="form__control">
+              <option value="">A-Z (Alphabet)</option>
+              <option value="">Z-A (Alphabet)</option>
+              <option value="">$-$$$ (Price)</option>
+              <option value="">$$$-$ (Price)</option>
+            </select>
+          </div>
+        </div>
+        <div class="divider-dot my-md"></div>
+        <div class="grid-x grid-padding-x">
+          <div class="medium-4 cell mb-md">
+            {{> molecules-card}}
+          </div>
+          <div class="medium-4 cell mb-md">
+            {{> molecules-card}}
+          </div>
+          <div class="medium-4 cell mb-md">
+            {{> molecules-card}}
+          </div>
+          <div class="medium-4 cell mb-md">
+            {{> molecules-card}}
+          </div>
+          <div class="medium-4 cell mb-md">
+            {{> molecules-card}}
+          </div>
+          <div class="medium-4 cell mb-md">
+            {{> molecules-card}}
+          </div>
+          <div class="medium-4 cell mb-md">
+            {{> molecules-card}}
+          </div>
+          <div class="medium-4 cell mb-md">
+            {{> molecules-card}}
+          </div>
+          <div class="medium-4 cell mb-md">
+            {{> molecules-card}}
+          </div>
+        </div>
+        <div class="divider mb-lg"></div>
+        <ul class="list-inline text-center mb-xl">
+          <li><i class="fa fa-caret-left"></i></li>
+          <li>1</li>
+          <li>2</li>
+          <li><i class="fa fa-caret-right"></i></li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>

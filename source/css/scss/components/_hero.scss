@@ -31,21 +31,15 @@
 
   &__title {
     font-size: responsive $font-size-h3 $font-size-h1;
-    text-shadow:
-      1px 1px 0 $color-white,
-      -1px 1px 0 $color-white,
-      1px -1px 0 $color-white,
-      -1px -1px 0 $color-white;
     text-transform: uppercase;
+
+    @include text-border;
   }
 
   &__sub-title {
     font-family: $font-secondary;
     font-size: responsive $font-size-h5 $font-size-h3;
-    text-shadow:
-      1px 1px 0 $color-white,
-      -1px 1px 0 $color-white,
-      1px -1px 0 $color-white,
-      -1px -1px 0 $color-white;
+
+    @include text-border;
   }
 }

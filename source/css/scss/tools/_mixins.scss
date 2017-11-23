@@ -105,3 +105,12 @@
 @mixin box-shadow {
   box-shadow: 0 0 $space-md rgba($color-text, 0.2);
 }
+
+// Text shadow
+@mixin text-border($border-width: 1px) {
+  text-shadow:
+      $border-width $border-width 0 $color-white,
+      ($border-width * -1) $border-width 0 $color-white,
+      $border-width ($border-width * -1) 0 $color-white,
+      ($border-width * -1) ($border-width * -1) 0 $color-white;
+}

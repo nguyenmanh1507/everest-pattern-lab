@@ -64,7 +64,7 @@
     background-color: $color-secondary;
     opacity: 0;
     transition: $anim-speed-quick opacity $anim-ease;
-    transform: translate3d(-50%, -50%, 0);
+    transform: translate(-50%, -50%);
 
     &--2 {
       font-weight: $font-weight-semi-bold;

@@ -1,0 +1,76 @@
+// stylelint-disable selector-no-qualifying-type, selector-max-type, selector-max-specificity
+
+.brick {
+  // private colors variable
+  $colors: (
+    red: #f44336,
+    pink: #e91e63,
+    purple: #9c27b0,
+    deep-blue: #673ab7,
+    indigo: #3f51b5,
+    blue: #2196f3,
+    light-blue: #03a9f4,
+    cyan: #00bcd4,
+    teal: #009688,
+    green: #4caf50,
+    light-green: #8bc34a,
+    lime: #cddc39,
+    yellow: #ffeb3b,
+    amber: #ffc107,
+    orange: #ff9800,
+    deep-orange: #ff5722,
+    brow: #795548,
+    grey: #9e9e9e,
+    blue-grey: #607d8b,
+    black: #000
+  );
+
+  margin-bottom: 0;
+  cursor: pointer;
+
+  &:hover {
+    .brick__body {
+      &::before {
+        opacity: 1;
+      }
+    }
+  }
+
+  @each $color, $code in $colors {
+    &--#{$color} .brick__body {
+      background-color: $code;
+    }
+  }
+
+  [type="checkbox"] {
+    display: none;
+
+    &:checked ~ .brick__body::before {
+      opacity: 1;
+    }
+  }
+
+  &__body {
+    position: relative;
+
+    display: inline-block;
+    width: ($root * 3);
+    height: ($root * 3);
+
+    &::before {
+      position: absolute;
+      top: 2px;
+      right: 2px;
+      bottom: 2px;
+      left: 2px;
+
+      display: inline-block;
+      content: "";
+
+      border: 1px solid $color-white;
+      opacity: 0;
+
+      transition: $anim-speed-quick opacity $anim-ease;
+    }
+  }
+}
