@@ -57,6 +57,16 @@
   &--large {
     padding: $space-md $space-lg;
   }
+
+  &--bordered {
+    border: 1px solid $color-border;
+
+    transition: $anim-speed-quick border-color $anim-ease;
+
+    @include hover-focus {
+      border-color: $color-primary;
+    }
+  }
 }
 
 .btn--rounded.btn--large {

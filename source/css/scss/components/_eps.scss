@@ -1,0 +1,73 @@
+// stylelint-disable plugin/no-unsupported-browser-features
+// Everest product slider
+.eps {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+
+  @media (--large-up) {
+    flex-direction: row;
+  }
+
+  &__content {
+    position: relative;
+    margin-bottom: $space-sm;
+
+    &:hover {
+      .eps__cta {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+
+    @media (--large-up) {
+      order: 2;
+      margin-bottom: 0;
+      margin-left: $space-sm;
+    }
+  }
+
+  &__cta {
+    position: absolute;
+    right: $space-md;
+    bottom: $space-md;
+
+    width: $space-lg;
+    height: $space-lg;
+
+    line-height: $space-lg;
+    text-align: center;
+
+    visibility: hidden;
+    background-color: $color-white;
+    border: 0;
+    border-radius: 50%;
+    opacity: 0;
+
+    transition: $anim-speed-quick opacity $anim-ease;
+
+    @include box-shadow;
+  }
+
+  &__list-thumbnail {
+    display: flex;
+    overflow: auto;
+
+    @media (--large-up) {
+      flex-direction: column;
+    }
+  }
+
+  &__thumbnail {
+    flex-shrink: 0;
+
+    &:not(:last-child) {
+      margin-right: $space-sm;
+
+      @media (--large-up) {
+        margin-right: 0;
+        margin-bottom: $space-sm;
+      }
+    }
+  }
+}

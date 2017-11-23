@@ -1,0 +1,72 @@
+// stylelint-disable plugin/no-unsupported-browser-features
+
+.tab {
+  &__nav {
+    position: relative;
+
+    display: flex;
+    &::before {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+
+      height: 2px;
+      content: "";
+
+      background-color: $color-gray-50;
+    }
+
+    &--center {
+      justify-content: center;
+    }
+  }
+
+  &__nav-item {
+    position: relative;
+
+    padding: $space-sm $space-md;
+
+    color: $color-text-subtle;
+    text-transform: uppercase;
+
+    border: 0;
+
+    transition: $anim-speed-quick color $anim-ease;
+
+    &.active,
+    &:hover {
+      color: $color-text;
+
+      &::after {
+        background-color: $color-text;
+      }
+    }
+
+    &::after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+
+      width: 100%;
+      height: 2px;
+      content: "";
+
+      background-color: $color-gray-50;
+
+      transition: $anim-speed-quick background-color $anim-ease;
+    }
+  }
+
+  &__body {
+    padding: $space-md;
+  }
+
+  &__content {
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+}

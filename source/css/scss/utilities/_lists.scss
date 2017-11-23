@@ -12,7 +12,8 @@
 
   @include remove-list-default-style;
 
-  li {
+  > li,
+  > .list-item {
     position: relative;
 
     &:not(:last-child) {
@@ -45,7 +46,8 @@
 .list-inline {
   @include remove-list-default-style;
 
-  li {
+  > li,
+  > .list-item {
     display: inline-block;
 
     &:not(:last-child) {
@@ -57,7 +59,8 @@
 .list-underline {
   @include remove-list-default-style;
 
-  li {
+  > li,
+  > .list-item {
     padding: $space-sm 0;
 
     &:not(:last-child) {
