@@ -1,4 +1,4 @@
-// stylelint-disable selector-no-qualifying-type, selector-max-specificity, selector-max-type, plugin/no-unsupported-browser-features
+// stylelint-disable selector-no-qualifying-type, selector-max-specificity, selector-max-type, plugin/no-unsupported-browser-features, property-no-vendor-prefix
 
 .form {
   &__control {
@@ -17,6 +17,10 @@
     @include border(2px, $color-border);
     @include hover-focus {
       border-color: $color-secondary;
+    }
+
+    &--w-auto {
+      width: auto;
     }
   }
 
@@ -102,7 +106,9 @@
 }
 
 select.form__control:not([size]):not([multiple]) {
-  height: (($space-xs * 2) + ($font-size-base * $line-height-base) + 2);
+  // height: (($space-xs * 2) + ($font-size-base * $line-height-base) + 2);
+
+  -webkit-appearance: none;
 }
 
 label > span {

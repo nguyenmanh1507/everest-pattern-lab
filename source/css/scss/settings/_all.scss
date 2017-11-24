@@ -63,6 +63,7 @@ $color-brand: #252525;
  */
 $color-white: #fff;
 $color-gray-50: #ebebeb;
+$color-gray-65: #ccc;
 $color-gray-85: #959595;
 $color-black: #000;
 
@@ -148,6 +149,12 @@ $border-radius-large: $space-md;
 $border-radius-xlarge: $space-lg;
 
 /*------------------------------------*\
+    #BORDERS
+\*------------------------------------*/
+
+$table-border-width: 1px;
+
+/*------------------------------------*\
     #ANIMATION
 \*------------------------------------*/
 
@@ -168,3 +175,10 @@ $anim-ease: ease;
 @custom-media --small-only (max-width: 575px);
 @custom-media --medium-up (min-width: 576px);
 @custom-media --large-up (min-width: 992px);
+
+/*------------------------------------*\
+    #Z-INDEX
+\*------------------------------------*/
+
+$z-index-low: 0;
+$z-index-base: 1;

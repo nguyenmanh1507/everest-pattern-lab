@@ -1,0 +1,111 @@
+// stylelint-disable plugin/no-unsupported-browser-features
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  &__checkpoint {
+    position: relative;
+
+    &:first-of-type,
+    &:last-of-type {
+      &::before {
+        position: absolute;
+        top: ($root * 5 + 1);
+
+        display: block;
+        width: 50%;
+        height: 2px;
+
+        content: "";
+        border-bottom: 2px dashed $color-gray-50;
+      }
+    }
+
+    &:first-of-type::before {
+      left: 50%;
+    }
+
+    &:last-of-type::before {
+      rigth: 50%;
+    }
+
+    &.done {
+      .step__item {
+        background-color: $color-secondary;
+      }
+
+      .step__text {
+        color: $color-text;
+      }
+    }
+  }
+
+  &__item {
+    position: relative;
+    z-index: $z-index-base;
+
+    width: ($root * 10);
+    height: ($root * 10);
+    margin: 0 auto;
+
+    font-size: $font-size-h4;
+    line-height: ($root * 10);
+    color: $color-white;
+    text-align: center;
+
+    background-color: $color-gray-65;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px $color-white;
+  }
+
+  &__text {
+    margin-top: $space-md;
+
+    color: $color-gray-65;
+    text-align: center;
+  }
+
+  &__line {
+    position: relative;
+
+    width: 100%;
+    max-width: 240px;
+    margin: 0;
+
+    transform: translateY($root * 4 - 2);
+
+    &::before {
+      position: absolute;
+      top: 50%;
+      left: 0;
+
+      display: block;
+      width: 100%;
+      height: 2px;
+
+      content: "";
+      border-bottom: 2px dashed $color-gray-50;
+
+      transform: translateY(-50%);
+    }
+  }
+
+  &__line-icon {
+    position: relative;
+    z-index: $z-index-base;
+
+    width: ($root * 3);
+    height: ($root * 3);
+    margin: 0 auto;
+
+    line-height: ($root * 3 - 2);
+    color: $color-gray-50;
+    text-align: center;
+
+    background-color: $color-white;
+    border: 2px solid $color-gray-50;
+    border-radius: 50%;
+  }
+}
