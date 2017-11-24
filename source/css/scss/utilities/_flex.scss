@@ -119,3 +119,7 @@
 .item-fullfill {
   flex-grow: 1;
 }
+
+.item-no-shrink {
+  flex-shrink: 0;
+}
