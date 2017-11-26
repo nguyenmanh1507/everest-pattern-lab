@@ -107,10 +107,10 @@
 }
 
 // Text shadow
-@mixin text-border($border-width: 1px) {
+@mixin text-border($border-width: 1px, $border-color: $color-white) {
   text-shadow:
-      $border-width $border-width 0 $color-white,
-      ($border-width * -1) $border-width 0 $color-white,
-      $border-width ($border-width * -1) 0 $color-white,
-      ($border-width * -1) ($border-width * -1) 0 $color-white;
+      $border-width $border-width 0 $border-color,
+      ($border-width * -1) $border-width 0 $border-color,
+      $border-width ($border-width * -1) 0 $border-color,
+      ($border-width * -1) ($border-width * -1) 0 $border-color;
 }

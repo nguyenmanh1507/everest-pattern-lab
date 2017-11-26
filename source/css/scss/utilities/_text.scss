@@ -71,3 +71,11 @@
 .text-line-through {
   text-decoration: line-through;
 }
+
+.text-border {
+  @include text-border;
+}
+
+.text-border-dark {
+  @include text-border(1px, $color-text);
+}
