@@ -1,0 +1,929 @@
+{
+  "version": 1,
+  "timestamp": 1511835350119,
+  "graph": {
+    "options": {
+      "directed": true,
+      "multigraph": false,
+      "compound": false
+    },
+    "nodes": [
+      {
+        "v": "00-atoms/00-colors/00-brand-colors.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/00-colors/01-neutral-colors.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/00-colors/02-utility-colors.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/01-typography/00-fonts.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/01-typography/01-paragraph.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/01-typography/02-headings.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/01-typography/03-blockquote.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/01-typography/04-ordered-list.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/01-typography/05-unordered-list.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/01-typography/06-font-secondary.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/02-inputs/00-input-tags.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/02-inputs/01-select.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/02-inputs/02-radio.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/02-inputs/03-checkbox.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/02-inputs/04-textarea.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/02-inputs/05-label.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/03-animations/00-animations.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/banners/banner.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-01-categories-02-categories-content/04-pages-01-categories-02-categories-content.rendered.html",
+          "lineagePattern": "pages-categories-content"
+        }
+      },
+      {
+        "v": "01-molecules/bricks/brick-2.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-02-product-detail-01-product-detail-content/04-pages-02-product-detail-01-product-detail-content.rendered.html",
+          "lineagePattern": "pages-product-detail-content"
+        }
+      },
+      {
+        "v": "01-molecules/bricks/brick.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-02-product-detail-01-product-detail-content/04-pages-02-product-detail-01-product-detail-content.rendered.html",
+          "lineagePattern": "pages-product-detail-content"
+        }
+      },
+      {
+        "v": "01-molecules/buttons/00-button.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/buttons/01-button-primary.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/buttons/02-button-secondary.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/buttons/03-button-danger.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/buttons/04-button-tags.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/buttons/05-button-bold.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/buttons/06-button-rounded.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/buttons/07-button-small.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/buttons/08-button-large.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/buttons/09-button-bordered.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/card/00-card.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-02-product-detail-product-detail-related/04-pages-02-product-detail-product-detail-related.rendered.html",
+          "lineagePattern": "pages-product-detail-related"
+        }
+      },
+      {
+        "v": "01-molecules/card/01-card-only-thumbnail.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/card-2/00-card-2.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-00-homepage-05-homepage-blog/04-pages-00-homepage-05-homepage-blog.rendered.html",
+          "lineagePattern": "pages-homepage-blog"
+        }
+      },
+      {
+        "v": "01-molecules/card-3/00-card-3.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/everest-product-slider/everest-product-slider.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-02-product-detail-01-product-detail-content/04-pages-02-product-detail-01-product-detail-content.rendered.html",
+          "lineagePattern": "pages-product-detail-content"
+        }
+      },
+      {
+        "v": "01-molecules/forms/input-dropdown-open.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/forms/input-dropdown.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-00-global-header/02-organisms-00-global-header.rendered.html",
+          "lineagePattern": "organisms-header"
+        }
+      },
+      {
+        "v": "01-molecules/heros/hero.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-00-homepage-00-homepage/04-pages-00-homepage-00-homepage.rendered.html",
+          "lineagePattern": "pages-homepage"
+        }
+      },
+      {
+        "v": "01-molecules/navigation/navigation.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organisms-00-global-header/02-organisms-00-global-header.rendered.html",
+          "lineagePattern": "organisms-header"
+        }
+      },
+      {
+        "v": "01-molecules/section-heading/00-sh.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/section-heading/01-sh-2.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/section-heading/01-sh-2~invert.json",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/section-heading/02-sh-3.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/steps/step.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/tables/table.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/tabs/tab.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-molecules/tabs/tab~center.json",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-organisms/00-global/footer.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-07-contact-00-contact/04-pages-07-contact-00-contact.rendered.html",
+          "lineagePattern": "pages-contact"
+        }
+      },
+      {
+        "v": "02-organisms/00-global/header.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-07-contact-00-contact/04-pages-07-contact-00-contact.rendered.html",
+          "lineagePattern": "pages-contact"
+        }
+      },
+      {
+        "v": "02-organisms/pano/00-pano-full.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-organisms/pano/01-pano-list.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages/00-homepage/00-homepage.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages/00-homepage/01-homepage-collection.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-00-homepage-00-homepage/04-pages-00-homepage-00-homepage.rendered.html",
+          "lineagePattern": "pages-homepage"
+        }
+      },
+      {
+        "v": "04-pages/00-homepage/02-homepage-pano-1.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-00-homepage-00-homepage/04-pages-00-homepage-00-homepage.rendered.html",
+          "lineagePattern": "pages-homepage"
+        }
+      },
+      {
+        "v": "04-pages/00-homepage/03-homepage-popular.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-00-homepage-00-homepage/04-pages-00-homepage-00-homepage.rendered.html",
+          "lineagePattern": "pages-homepage"
+        }
+      },
+      {
+        "v": "04-pages/00-homepage/04-homepage-pano-2.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-00-homepage-00-homepage/04-pages-00-homepage-00-homepage.rendered.html",
+          "lineagePattern": "pages-homepage"
+        }
+      },
+      {
+        "v": "04-pages/00-homepage/05-homepage-blog.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-00-homepage-00-homepage/04-pages-00-homepage-00-homepage.rendered.html",
+          "lineagePattern": "pages-homepage"
+        }
+      },
+      {
+        "v": "04-pages/01-categories/00-categories.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages/01-categories/01-categories-breadcrumb.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-07-contact-00-contact/04-pages-07-contact-00-contact.rendered.html",
+          "lineagePattern": "pages-contact"
+        }
+      },
+      {
+        "v": "04-pages/01-categories/02-categories-content.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-01-categories-00-categories/04-pages-01-categories-00-categories.rendered.html",
+          "lineagePattern": "pages-categories"
+        }
+      },
+      {
+        "v": "04-pages/01-categories/categories-sidenav.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-01-categories-02-categories-content/04-pages-01-categories-02-categories-content.rendered.html",
+          "lineagePattern": "pages-categories-content"
+        }
+      },
+      {
+        "v": "04-pages/02-product-detail/00-product-detail.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages/02-product-detail/01-product-detail-content.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-02-product-detail-00-product-detail/04-pages-02-product-detail-00-product-detail.rendered.html",
+          "lineagePattern": "pages-product-detail"
+        }
+      },
+      {
+        "v": "04-pages/02-product-detail/product-detail-related.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-02-product-detail-01-product-detail-content/04-pages-02-product-detail-01-product-detail-content.rendered.html",
+          "lineagePattern": "pages-product-detail-content"
+        }
+      },
+      {
+        "v": "04-pages/02-product-detail/product-detail-tab.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-02-product-detail-01-product-detail-content/04-pages-02-product-detail-01-product-detail-content.rendered.html",
+          "lineagePattern": "pages-product-detail-content"
+        }
+      },
+      {
+        "v": "04-pages/03-shopping-cart/00-shopping-cart.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages/03-shopping-cart/01-shopping-cart-step.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-03-shopping-cart-00-shopping-cart/04-pages-03-shopping-cart-00-shopping-cart.rendered.html",
+          "lineagePattern": "pages-shopping-cart"
+        }
+      },
+      {
+        "v": "04-pages/03-shopping-cart/02-shopping-cart-table.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-03-shopping-cart-00-shopping-cart/04-pages-03-shopping-cart-00-shopping-cart.rendered.html",
+          "lineagePattern": "pages-shopping-cart"
+        }
+      },
+      {
+        "v": "04-pages/03-shopping-cart/03-shopping-cart-form.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-03-shopping-cart-00-shopping-cart/04-pages-03-shopping-cart-00-shopping-cart.rendered.html",
+          "lineagePattern": "pages-shopping-cart"
+        }
+      },
+      {
+        "v": "04-pages/04-checkout/00-checkout.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages/04-checkout/01-checkout-step.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-04-checkout-00-checkout/04-pages-04-checkout-00-checkout.rendered.html",
+          "lineagePattern": "pages-checkout"
+        }
+      },
+      {
+        "v": "04-pages/04-checkout/02-checkout-info.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-04-checkout-00-checkout/04-pages-04-checkout-00-checkout.rendered.html",
+          "lineagePattern": "pages-checkout"
+        }
+      },
+      {
+        "v": "04-pages/05-complete/00-complete.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages/05-complete/01-complete-step.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-05-complete-00-complete/04-pages-05-complete-00-complete.rendered.html",
+          "lineagePattern": "pages-complete"
+        }
+      },
+      {
+        "v": "04-pages/05-complete/02-complete-content.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-05-complete-00-complete/04-pages-05-complete-00-complete.rendered.html",
+          "lineagePattern": "pages-complete"
+        }
+      },
+      {
+        "v": "04-pages/06-about/00-about.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages/06-about/01-about-pano.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-06-about-00-about/04-pages-06-about-00-about.rendered.html",
+          "lineagePattern": "pages-about"
+        }
+      },
+      {
+        "v": "04-pages/06-about/02-about-description.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-06-about-00-about/04-pages-06-about-00-about.rendered.html",
+          "lineagePattern": "pages-about"
+        }
+      },
+      {
+        "v": "04-pages/06-about/03-about-member.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-06-about-00-about/04-pages-06-about-00-about.rendered.html",
+          "lineagePattern": "pages-about"
+        }
+      },
+      {
+        "v": "04-pages/06-about/04-about-get-in-touch.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-06-about-00-about/04-pages-06-about-00-about.rendered.html",
+          "lineagePattern": "pages-about"
+        }
+      },
+      {
+        "v": "04-pages/07-contact/00-contact.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "04-pages/07-contact/01-contact-content.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-pages-07-contact-00-contact/04-pages-07-contact-00-contact.rendered.html",
+          "lineagePattern": "pages-contact"
+        }
+      },
+      {
+        "v": "05-utilities/borders/border-radius.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "05-utilities/colors/background.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "05-utilities/dividers/divider.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "05-utilities/lists/list-inline.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "05-utilities/lists/list-separate.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "05-utilities/lists/list-underline.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "05-utilities/lists/list-unstyled.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "/Users/ngmanh/Github/everest-pattern-lab/source/_meta/_00-head.mustache",
+        "value": {
+          "compileState": null
+        }
+      },
+      {
+        "v": "/Users/ngmanh/Github/everest-pattern-lab/source/_meta/_01-foot.mustache",
+        "value": {
+          "compileState": null
+        }
+      }
+    ],
+    "edges": [
+      {
+        "v": "01-molecules/section-heading/01-sh-2~invert.json",
+        "w": "01-molecules/section-heading/01-sh-2.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules/tabs/tab~center.json",
+        "w": "01-molecules/tabs/tab.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/00-global/header.mustache",
+        "w": "01-molecules/forms/input-dropdown.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organisms/00-global/header.mustache",
+        "w": "01-molecules/navigation/navigation.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/00-homepage/01-homepage-collection.mustache",
+        "w": "01-molecules/card/00-card.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/00-homepage/03-homepage-popular.mustache",
+        "w": "01-molecules/card/00-card.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/00-homepage/05-homepage-blog.mustache",
+        "w": "01-molecules/card-2/00-card-2.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/00-homepage/00-homepage.mustache",
+        "w": "02-organisms/00-global/header.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/00-homepage/00-homepage.mustache",
+        "w": "01-molecules/heros/hero.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/00-homepage/00-homepage.mustache",
+        "w": "04-pages/00-homepage/01-homepage-collection.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/00-homepage/00-homepage.mustache",
+        "w": "04-pages/00-homepage/02-homepage-pano-1.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/00-homepage/00-homepage.mustache",
+        "w": "04-pages/00-homepage/03-homepage-popular.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/00-homepage/00-homepage.mustache",
+        "w": "04-pages/00-homepage/04-homepage-pano-2.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/00-homepage/00-homepage.mustache",
+        "w": "04-pages/00-homepage/05-homepage-blog.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/00-homepage/00-homepage.mustache",
+        "w": "02-organisms/00-global/footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/01-categories/categories-sidenav.mustache",
+        "w": "01-molecules/bricks/brick.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/01-categories/categories-sidenav.mustache",
+        "w": "01-molecules/bricks/brick-2.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/01-categories/02-categories-content.mustache",
+        "w": "04-pages/01-categories/categories-sidenav.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/01-categories/02-categories-content.mustache",
+        "w": "01-molecules/banners/banner.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/01-categories/02-categories-content.mustache",
+        "w": "01-molecules/card/00-card.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/01-categories/00-categories.mustache",
+        "w": "02-organisms/00-global/header.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/01-categories/00-categories.mustache",
+        "w": "04-pages/01-categories/01-categories-breadcrumb.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/01-categories/00-categories.mustache",
+        "w": "04-pages/01-categories/02-categories-content.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/01-categories/00-categories.mustache",
+        "w": "02-organisms/00-global/footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/02-product-detail/product-detail-related.mustache",
+        "w": "01-molecules/card/00-card.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/02-product-detail/01-product-detail-content.mustache",
+        "w": "01-molecules/everest-product-slider/everest-product-slider.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/02-product-detail/01-product-detail-content.mustache",
+        "w": "01-molecules/bricks/brick.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/02-product-detail/01-product-detail-content.mustache",
+        "w": "01-molecules/bricks/brick-2.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/02-product-detail/01-product-detail-content.mustache",
+        "w": "04-pages/02-product-detail/product-detail-tab.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/02-product-detail/01-product-detail-content.mustache",
+        "w": "04-pages/02-product-detail/product-detail-related.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/02-product-detail/00-product-detail.mustache",
+        "w": "02-organisms/00-global/header.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/02-product-detail/00-product-detail.mustache",
+        "w": "04-pages/01-categories/01-categories-breadcrumb.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/02-product-detail/00-product-detail.mustache",
+        "w": "04-pages/02-product-detail/01-product-detail-content.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/02-product-detail/00-product-detail.mustache",
+        "w": "02-organisms/00-global/footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/03-shopping-cart/00-shopping-cart.mustache",
+        "w": "02-organisms/00-global/header.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/03-shopping-cart/00-shopping-cart.mustache",
+        "w": "04-pages/01-categories/01-categories-breadcrumb.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/03-shopping-cart/00-shopping-cart.mustache",
+        "w": "04-pages/03-shopping-cart/01-shopping-cart-step.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/03-shopping-cart/00-shopping-cart.mustache",
+        "w": "04-pages/03-shopping-cart/02-shopping-cart-table.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/03-shopping-cart/00-shopping-cart.mustache",
+        "w": "04-pages/03-shopping-cart/03-shopping-cart-form.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/03-shopping-cart/00-shopping-cart.mustache",
+        "w": "02-organisms/00-global/footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/04-checkout/00-checkout.mustache",
+        "w": "02-organisms/00-global/header.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/04-checkout/00-checkout.mustache",
+        "w": "04-pages/01-categories/01-categories-breadcrumb.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/04-checkout/00-checkout.mustache",
+        "w": "04-pages/04-checkout/01-checkout-step.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/04-checkout/00-checkout.mustache",
+        "w": "04-pages/04-checkout/02-checkout-info.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/04-checkout/00-checkout.mustache",
+        "w": "02-organisms/00-global/footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/05-complete/00-complete.mustache",
+        "w": "02-organisms/00-global/header.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/05-complete/00-complete.mustache",
+        "w": "04-pages/01-categories/01-categories-breadcrumb.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/05-complete/00-complete.mustache",
+        "w": "04-pages/05-complete/01-complete-step.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/05-complete/00-complete.mustache",
+        "w": "04-pages/05-complete/02-complete-content.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/05-complete/00-complete.mustache",
+        "w": "02-organisms/00-global/footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/06-about/00-about.mustache",
+        "w": "02-organisms/00-global/header.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/06-about/00-about.mustache",
+        "w": "04-pages/06-about/01-about-pano.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/06-about/00-about.mustache",
+        "w": "04-pages/06-about/02-about-description.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/06-about/00-about.mustache",
+        "w": "04-pages/06-about/03-about-member.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/06-about/00-about.mustache",
+        "w": "04-pages/06-about/04-about-get-in-touch.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/06-about/00-about.mustache",
+        "w": "02-organisms/00-global/footer.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/07-contact/00-contact.mustache",
+        "w": "02-organisms/00-global/header.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/07-contact/00-contact.mustache",
+        "w": "04-pages/01-categories/01-categories-breadcrumb.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/07-contact/00-contact.mustache",
+        "w": "04-pages/07-contact/01-contact-content.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-pages/07-contact/00-contact.mustache",
+        "w": "02-organisms/00-global/footer.mustache",
+        "value": {}
+      }
+    ]
+  }
+}

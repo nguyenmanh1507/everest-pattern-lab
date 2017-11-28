@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html class="pl">
+
+<head>
+  <title>Pattern Lab</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400i|Poppins:300,400,500,600" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/style.css?1511835341735" media="all" />
+  <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1511835341735" media="all" />
+
+  <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+  <!-- never cache patterns -->
+  <meta http-equiv="cache-control" content="max-age=0" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="expires" content="0" />
+  <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+  <meta http-equiv="pragma" content="no-cache" />
+
+  <link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1511835341735" media="all">
+  <link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1511835341735" media="all" />
+
+  <!-- End Pattern Lab -->
+
+</head>
+
+<body class="body">
+
+  <div class="grid-container py-xl">
+    <div class="grid-x grid-padding-x">
+      <section class="large-6 cell">
+        <h3 class="text-large text-uppercase mb-lg">Calculate shipping</h3>
+        <form action="/" class="form">
+          <div class="mb-md">
+            <label for="country">Country</label>
+            <select name="" id="country" class="form__control">
+            <option value="vn">Vietnam</option>
+            <option value="us">United State</option>
+            <option value="eng">England</option>
+            <option value="ita">Italia</option>
+            <option value="fr">Franch</option>
+          </select>
+          </div>
+          <div class="mb-md">
+            <label for="state">State / Provice</label>
+            <select name="" id="state" class="form__control">
+            <option value="vn">Virginia</option>
+            <option value="us">Georgia</option>
+            <option value="eng">Texas</option>
+            <option value="ita">Ohio</option>
+            <option value="fr">Colorado</option>
+          </select>
+          </div>
+          <div class="mb-md">
+            <label for="zip">Post code / Zip</label>
+            <input type="text" id="zip" class="form__control">
+          </div>
+          <button class="btn btn--primary" type="submit">Estimate</button>
+        </form>
+      </section>
+      <section class="large-6 cell">
+        <h3 class="text-large text-uppercase mb-lg">Cart totals</h3>
+        <div class="mb-md">
+
+          <div class="mb-md">
+            <label for="" style="visibility: hidden">fake label</label>
+            <div class="d-flex py-sm" style="line-height: 1.2">
+              <span class="item-fullfill text-uppercase text-small mr-sm">Subtotals</span>
+              <span class="text-bold">$356.00</span>
+            </div>
+            <div class="divider"></div>
+          </div>
+          <div class="mb-md">
+            <label for="" style="visibility: hidden">fake label</label>
+            <div class="d-flex py-sm" style="line-height: 1.2">
+              <span class="item-fullfill text-uppercase text-small mr-sm">Shipping</span>
+              <span class="text-bold">$0.00</span>
+            </div>
+            <div class="divider"></div>
+          </div>
+          <div class="mb-md">
+            <label for="" style="visibility: hidden">fake label</label>
+            <div class="d-flex py-sm" style="line-height: 1.2">
+              <span class="item-fullfill text-uppercase text-small mr-sm">Order totals</span>
+              <span class="text-bold">$356.00</span>
+            </div>
+            <div class="divider"></div>
+          </div>
+
+        </div>
+        <div class="d-flex">
+          <div class="ml-auto">
+            <button class="btn btn--secondary">Continue shopping</button>
+            <button class="btn btn--primary">Checkout</button>
+          </div>
+        </div>
+
+      </section>
+      <section class="large-6 cell">
+        <form action="/" class="form mt-xl">
+          <h3 class="text-large text-uppercase mb-lg">Discount codes</h3>
+          <div class="d-flex">
+            <input type="text" class="form__control item-fullfill mr-md" placeholder="XX-XXXX-XX">
+            <button class="btn btn--primary" type="submit">Update</button>
+          </div>
+        </form>
+      </section>
+      <section class="large-6 cell">
+        <div class="mt-xl">
+          <div class="text-bold text-uppercase mb-lg"><i class="fa fa-asterisk"></i> Note:</div>
+          <ul class="list-unstyled text-small">
+            <li><i class="fa fa-check-square-o"></i> Does not apply to products that have been promotion from previous</li>
+            <li><i class="fa fa-check-square-o"></i> No value shall be converted into cash</li>
+            <li><i class="fa fa-check-square-o"></i> Not applicable 2 for the same product code</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!--DO NOT REMOVE-->
+  <script type="text/json" id="sg-pattern-data-footer" class="sg-pattern-data">
+    {
+      "cssEnabled": false,
+      "patternLineageExists": false,
+      "patternLineages": [],
+      "lineage": [],
+      "patternLineageRExists": true,
+      "patternLineagesR": [{
+        "lineagePattern": "pages-shopping-cart",
+        "lineagePath": "../../patterns/04-pages-03-shopping-cart-00-shopping-cart/04-pages-03-shopping-cart-00-shopping-cart.rendered.html"
+      }],
+      "lineageR": [{
+        "lineagePattern": "pages-shopping-cart",
+        "lineagePath": "../../patterns/04-pages-03-shopping-cart-00-shopping-cart/04-pages-03-shopping-cart-00-shopping-cart.rendered.html"
+      }],
+      "patternLineageEExists": true,
+      "patternDesc": "",
+      "patternBreadcrumb": {
+        "patternType": "pages",
+        "patternSubtype": "shopping-cart"
+      },
+      "patternExtension": "mustache",
+      "patternName": "Shopping Cart Form",
+      "patternPartial": "pages-shopping-cart-form",
+      "patternState": "",
+      "patternEngineName": "mustache",
+      "extraOutput": {}
+    }
+  </script>
+
+  <script>
+    /*!
+     * scriptLoader - v0.1
+     *
+     * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+     * Licensed under the MIT license
+     *
+     */
+
+    var scriptLoader = {
+
+      run: function(js, cb, target) {
+        var s = document.getElementById(target + '-' + cb);
+        for (var i = 0; i < js.length; i++) {
+          var src = (typeof js[i] != 'string') ? js[i].src : js[i];
+          var c = document.createElement('script');
+          c.src = '../../' + src + '?' + cb;
+          if (typeof js[i] != 'string') {
+            if (js[i].dep !== undefined) {
+              c.onload = function(dep, cb, target) {
+                return function() {
+                  scriptLoader.run(dep, cb, target);
+                }
+              }(js[i].dep, cb, target);
+            }
+          }
+          s.parentNode.insertBefore(c, s);
+        }
+      }
+
+    }
+  </script>
+
+  <script id="pl-js-polyfill-insert-1511835341735">
+    (function() {
+      if (self != top) {
+        var cb = '1511835341735';
+        var js = [];
+        if (typeof document !== 'undefined' && !('classList' in document.documentElement)) {
+          js.push('styleguide/bower_components/classList.min.js');
+        }
+        scriptLoader.run(js, cb, 'pl-js-polyfill-insert');
+      }
+    })();
+  </script>
+
+  <script id="pl-js-insert-1511835341735">
+    (function() {
+      if (self != top) {
+        var cb = '1511835341735';
+        var js = [{
+          'src': 'styleguide/bower_components/jwerty.min.js',
+          'dep': ['styleguide/js/patternlab-pattern.min.js']
+        }];
+        scriptLoader.run(js, cb, 'pl-js-insert');
+      }
+    })();
+  </script>
+
+  <script type="text/javascript" src="/js/nav.js"></script>
+  <script type="text/javascript" src="/js/progress.js"></script>
+  <script type="text/javascript" src="/js/overlay.js"></script>
+</body>
+
+</html>
