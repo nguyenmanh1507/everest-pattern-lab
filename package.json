@@ -27,7 +27,8 @@
   "scripts": {
     "start": "gulp patternlab:serve",
     "postinstall": "node scripts/postinstall.js",
-    "gulp": "gulp -- "
+    "gulp": "gulp -- ",
+    "deploy": "gh-pages -d public"
   },
   "license": "MIT",
   "engines": {
@@ -35,6 +36,7 @@
   },
   "devDependencies": {
     "cssnano": "^3.10.0",
+    "gh-pages": "^1.1.0",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-load-plugins": "^1.5.0",
     "gulp-plumber": "^1.1.0",
