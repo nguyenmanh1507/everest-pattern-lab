@@ -3553,7 +3553,7 @@ label > span {
 .sh {
   position: relative;
   padding-bottom: 3rem;
-  background: url('/source/images/sh-icon.png') no-repeat center bottom;
+  background: url("../images/sh-icon.png") no-repeat center bottom;
 }
 
 .sh::before, .sh::after {
