@@ -58,6 +58,7 @@
       position: absolute;
       top: 100%;
       left: 0;
+      z-index: $z-index-base;
 
       display: none;
       min-width: ($root * 24);
@@ -97,6 +98,7 @@
     @media (--large-up) {
       position: absolute;
       left: 0;
+      z-index: $z-index-base;
 
       display: flex;
       width: 100%;
