@@ -42,7 +42,8 @@
     }
   }
 
-  [type="checkbox"] {
+  [type="checkbox"],
+  [type="radio"] {
     display: none;
 
     &:checked ~ .brick__body::before {
