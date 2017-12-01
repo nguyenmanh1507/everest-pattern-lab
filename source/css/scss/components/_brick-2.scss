@@ -3,7 +3,8 @@
 .brick-2 {
   cursor: pointer;
 
-  [type="checkbox"] {
+  [type="checkbox"],
+  [type="radio"] {
     display: none;
 
     &:checked ~ .brick-2__body {
