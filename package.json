@@ -7,7 +7,8 @@
     "chalk": "^2.3.0",
     "gulp": "gulpjs/gulp#4.0",
     "minimist": "^1.2.0",
-    "patternlab-node": "2.9.3",
+    "patternlab-node": "^2.9.3",
+    "siema": "^1.4.7",
     "styleguidekit-assets-default": "^3.0.0",
     "styleguidekit-mustache-default": "^3.0.0"
   },
@@ -28,7 +29,8 @@
     "start": "gulp patternlab:serve",
     "postinstall": "node scripts/postinstall.js",
     "gulp": "gulp -- ",
-    "deploy": "gh-pages -d public"
+    "deploy": "gh-pages -d public",
+    "bundle:js": "rollup -cw"
   },
   "license": "MIT",
   "engines": {
@@ -47,6 +49,8 @@
     "gulp-stylelint": "^5.0.0",
     "postcss-custom-media": "^6.0.0",
     "postcss-pxtorem": "^4.0.1",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.0",
     "rucksack-css": "^1.0.2",
     "stylelint-config-primer": "^2.1.0"
   }

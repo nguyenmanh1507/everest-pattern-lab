@@ -184,3 +184,11 @@ $anim-ease: ease;
 $z-index-low: 0;
 $z-index-base: 1;
 $z-index-level-2: 20;
+$z-index-modal: 10;
+$z-index-sub-menu: 10;
+
+/*------------------------------------*\
+    #MODAL
+\*------------------------------------*/
+
+$modal-large-width: ($root * 152);

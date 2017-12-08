@@ -276,6 +276,12 @@ function watch() {
       tasks: gulp.parallel('styles', 'stylelint')
     },
     {
+      name: 'JS',
+      paths: [normalizePath(paths().source.js, '**', '*.js')],
+      config: { awaitWriteFinish: true },
+      tasks: gulp.series('pl-copy:js')
+    },
+    {
       name: 'Styleguide Files',
       paths: [normalizePath(paths().source.styleguide, '**', '*')],
       config: { awaitWriteFinish: true },

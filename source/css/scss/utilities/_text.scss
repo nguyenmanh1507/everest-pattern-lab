@@ -79,3 +79,11 @@
 .text-border-dark {
   @include text-border(1px, $color-text);
 }
+
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}

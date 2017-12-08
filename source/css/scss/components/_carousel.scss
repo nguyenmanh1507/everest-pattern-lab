@@ -1,0 +1,91 @@
+// stylelint-disable plugin/no-unsupported-browser-features
+
+.carousel {
+  position: relative;
+
+  &__arrow {
+    position: absolute;
+    top: 50%;
+
+    width: ($root * 4);
+    height: ($root * 6);
+
+    font-size: $font-size-h3;
+
+    background-color: rgba($color-white, 0.7);
+    border: 0;
+
+    transform: translateY(-50%);
+
+    &:focus {
+      outline: none;
+    }
+
+    @media (--large-up) {
+      width: ($root * 6);
+      height: ($root * 10);
+
+      font-size: $font-size-h1;
+    }
+
+    &--left {
+      left: 0;
+    }
+
+    &--right {
+      right: 0;
+    }
+  }
+
+  &__paginate {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+
+    padding: $space-md;
+
+    transform: translateX(-50%);
+  }
+
+  &__paginate-item {
+    position: relative;
+
+    display: inline-block;
+    width: ($root * 2);
+    height: ($root * 2);
+
+    border-radius: 50%;
+
+    @include border(2px, $color-border);
+
+    &:not(:last-child) {
+      margin-right: $space-xs;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &::before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+
+      display: block;
+      width: $root;
+      height: $root;
+      content: "";
+
+      background-color: $color-border;
+      border-radius: 50%;
+      opacity: 0;
+
+      transition: $anim-speed-quick opacity $anim-ease;
+      transform: translate(-50%, -50%);
+    }
+
+    &.active::before {
+      opacity: 1;
+    }
+  }
+}

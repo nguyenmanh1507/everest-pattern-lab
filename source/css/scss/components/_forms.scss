@@ -44,8 +44,11 @@
 
     user-select: none;
     border: 0;
-    outline: none;
     transform: translateY(-50%);
+
+    &:focus {
+      outline: none;
+    }
 
     &::before {
       position: absolute;
@@ -67,6 +70,7 @@
     position: absolute;
     top: 100%;
     right: 0;
+    z-index: $z-index-base;
 
     display: none;
     min-width: ($root * 24);
